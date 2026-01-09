@@ -27,3 +27,11 @@ JUG Workshop
 * Frontend: [Angular](https://angular.dev) + [NodeJS](https://nodejs.org)
 * Backend: [Quarkus](https://quarkus.io) + [Langchaing4J](https://docs.langchain4j.dev/)
 * LLM: [Ollama](https://ollama.com/)
+
+---
+
+## Message Template Generator Use Case
+
+![slide](./images/s_04.png)
+
+---
