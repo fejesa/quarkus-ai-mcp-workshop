@@ -59,3 +59,9 @@ JUG Workshop
 ![slide](./images/s_08.png)
 
 ---
+
+## Quarkus Quinoa Build
+
+![slide](./images/s_09.png)
+
+---
