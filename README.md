@@ -30,8 +30,14 @@ JUG Workshop
 
 ---
 
-## Message Template Generator Use Case
+## Message Template Generator - Frontend
 
 ![slide](./images/s_04.png)
+
+---
+
+## Message Template Generator - Backend
+
+![slide](./images/s_05.png)
 
 ---
