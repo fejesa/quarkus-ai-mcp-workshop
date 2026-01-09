@@ -47,3 +47,9 @@ JUG Workshop
 ![slide](./images/s_06.png)
 
 ---
+
+## How to access REST API - Step 1
+
+![slide](./images/s_07.png)
+
+---
