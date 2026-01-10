@@ -65,3 +65,39 @@ JUG Workshop
 ![slide](./images/s_09.png)
 
 ---
+
+## Ollama Architecture
+
+---
+
+## Ollama API
+
+---
+
+## Model Context Protocol - MCP
+
+---
+
+## MCP Architecture
+
+---
+
+## MCP Layers
+
+---
+
+## Putting All Together
+
+---
+
+## Demo
+
+---
+
+## Observability
+
+---
+
+## Testing LLM Application in Quarkus
+
+---
