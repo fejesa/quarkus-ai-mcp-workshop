@@ -4,12 +4,14 @@ theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
+
 ---
 
 # Bringing AI to Java
 
 JUG Workshop
 
+by Andras Fejes
 ![bg left:40% 80%](./images/cover_image.png)
 
 ---
@@ -32,7 +34,7 @@ JUG Workshop
 
 ## Application Project Structure
 
-```
+```txt
 ├── docs
 ├── resources
 │   └── templates
@@ -91,7 +93,7 @@ JUG Workshop
 
 ## Ollama API - https://docs.ollama.com/api
 
-```
+```txt
 Base URL: http://localhost:11434/api
 ```
 
@@ -139,7 +141,6 @@ Base URL: http://localhost:11434/api
 </div>
 
 ---
-
 
 ## Model Context Protocol - MCP
 
