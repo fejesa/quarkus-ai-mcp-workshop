@@ -27,8 +27,20 @@ by Andras Fejes
 ![slide](./images/s_02.png)
 
 * Frontend: [Angular](https://angular.dev) + [NodeJS](https://nodejs.org)
-* Backend: [Quarkus](https://quarkus.io) + [Langchaing4J](https://docs.langchain4j.dev/)
+* Backend: [Quarkus](https://quarkus.io) + [Langchain4J](https://docs.langchain4j.dev/)
 * LLM: [Ollama](https://ollama.com/)
+
+---
+
+## Why use Quarkus for AI-Infused Applications
+
+Quarkus is ideal for AI applications
+
+* performance, agility, and developer experience, offers native Generative AI integration via LangChain4j; supporting declarative AI services, various LLMs, and advanced prompt engineering.
+
+Quarkus's "AI-Enhanced Developer Experience" provides
+
+* fast startups, low memory, and a reactive core for cloud-native AI; boosts developer velocity with live coding, a unified Java stack, and robust observability/security for reliable AI services.
 
 ---
 
