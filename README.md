@@ -30,6 +30,23 @@ JUG Workshop
 
 ---
 
+## Application Project Structure
+
+```
+├── docs
+├── resources
+│   └── templates
+└── src
+    ├── main
+    │   ├── java
+    │   ├── resources
+    │   └── webui
+    └── test
+        └── java
+```
+
+---
+
 ## Message Template Generator - Frontend
 
 ![slide](./images/s_04.png)
@@ -68,11 +85,61 @@ JUG Workshop
 
 ## Ollama Architecture
 
----
-
-## Ollama API
+![slide](./images/s_10.png)
 
 ---
+
+## Ollama API - https://docs.ollama.com/api
+
+```
+Base URL: http://localhost:11434/api
+```
+
+<div style="margin-bottom:8px">
+  <div style="display:inline-flex;align-items:center;gap:20px;font-family:system-ui;font-size:20px;">
+    <span style="background:#2563eb;color:white;padding:2px 8px;border-radius:9999px;font-weight:600;font-size:20px;">POST</span>
+    <span>/api/generate</span>
+    <span>Generates a response for the provided prompt.</span>
+  </div>
+</div>
+<div style="margin-bottom:8px">
+  <div style="display:inline-flex;align-items:center;gap:20px;font-family:system-ui;font-size:20px;">
+    <span style="background:#2563eb;color:white;padding:2px 8px;border-radius:9999px;font-weight:600;font-size:20px;">POST</span>
+    <span>/api/chat</span>
+    <span>Generate the next chat message in a conversation between a user and an assistant.</span>
+  </div>
+</div>
+<div style="margin-bottom:8px">
+  <div style="display:inline-flex;align-items:center;gap:20px;font-family:system-ui;font-size:20px;">
+    <span style="background:#059669;color:white;padding:2px 8px;border-radius:9999px;font-weight:600;font-size:20px;">GET</span>
+    <span>/api/tags</span>
+    <span>Fetch a list of models and their details.</span>
+  </div>
+</div>
+<div style="margin-bottom:8px">
+  <div style="display:inline-flex;align-items:center;gap:20px;font-family:system-ui;font-size:20px;">
+    <span style="background:#059669;color:white;padding:2px 8px;border-radius:9999px;font-weight:600;font-size:20px;">GET</span>
+    <span>/api/ps</span>
+    <span>Retrieve a list of models that are currently running.</span>
+  </div>
+</div>
+<div style="margin-bottom:8px">
+  <div style="display:inline-flex;align-items:center;gap:20px;font-family:system-ui;font-size:20px;">
+    <span style="background:#2563eb;color:white;padding:2px 8px;border-radius:9999px;font-weight:600;font-size:20px;">POST</span>
+    <span>/api/show</span>
+    <span>Show model details.</span>
+  </div>
+</div>
+<div style="margin-bottom:8px">
+  <div style="display:inline-flex;align-items:center;gap:20px;font-family:system-ui;font-size:20px;">
+    <span style="background:red;color:white;padding:2px 8px;border-radius:9999px;font-weight:600;font-size:20px;">DELETE</span>
+    <span>/api/delete</span>
+    <span>Delete a model.</span>
+  </div>
+</div>
+
+---
+
 
 ## Model Context Protocol - MCP
 
