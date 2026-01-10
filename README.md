@@ -169,6 +169,12 @@ Base URL: http://localhost:11434/api
 
 ## Putting All Together
 
+![slide](./images/s_17.png)
+
+---
+
+## Putting All Together Continue
+
 ![slide](./images/s_16.png)
 
 ---
