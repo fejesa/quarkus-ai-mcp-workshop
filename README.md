@@ -156,28 +156,33 @@ Base URL: http://localhost:11434/api
 
 ## Model Context Protocol - MCP
 
----
-
-## MCP Architecture
+![slide](./images/s_14.png)
 
 ---
 
-## MCP Layers
+## MCP Connection Lifecycle
+
+![slide](./images/s_15.png)
 
 ---
 
 ## Putting All Together
 
+![slide](./images/s_16.png)
+
 ---
 
 ## Demo
+
+* Build and run application
+* Run tests
 
 ---
 
 ## Observability
 
----
+OpenTelemetry is to collect, process, and export signals.
 
-## Testing LLM Application in Quarkus
-
----
+* Metrics: A measurement captured at runtime (for example Grafana)
+* Logs: A recording of an event (for example Elastic)
+* Traces: The path of a request through your application (for example Langfuse)
