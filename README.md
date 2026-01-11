@@ -74,13 +74,13 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ---
 
-## Message Template Generator - AI Service
+## Message Template Generator - Langchain4j
 
 ![slide](./images/s_05.png)
 
 ---
 
-## AI Service Continue
+## Langchain4j Continue
 
 ![slide](./images/s_06.png)
 
@@ -179,6 +179,12 @@ Base URL: http://localhost:11434/api
 
 ---
 
+## MCP Calls Flow
+
+![slide](./images/s_18.png)
+
+---
+
 ## Putting All Together Continue
 
 ![slide](./images/s_17.png)
@@ -190,12 +196,6 @@ Base URL: http://localhost:11434/api
 * Build and run application
 * mcpinspector
 * Run tests
-
----
-
-## MCP Calls Flow
-
-TODO: insert sequnce diagram
 
 ---
 
