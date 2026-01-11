@@ -4,7 +4,6 @@ theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
-
 ---
 
 # Bringing AI to Java
@@ -13,6 +12,28 @@ JUG Workshop
 
 by Andras Fejes
 ![bg left:40% 80%](./images/cover_image.png)
+
+---
+
+## Sources
+
+<style>
+  .row {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+  margin: 60px 0;
+}
+</style>
+<div class="row">
+  <img src="./images/qr_code_github_source.png" width="200" />
+  <a href="https://github.com/fejesa/quarkus-ai-mcp">https://github.com/fejesa/quarkus-ai-mcp</a>
+</div>
+
+<div class="row">
+  <img src="./images/qr_code_github_workshop.png" width="200" />
+  <a href="https://github.com/fejesa/quarkus-ai-mcp-workshop">https://github.com/fejesa/quarkus-ai-mcp-workshop</a>
+</div>
 
 ---
 
