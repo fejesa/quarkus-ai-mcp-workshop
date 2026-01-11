@@ -27,7 +27,7 @@ by Andras Fejes
 ![slide](./images/s_02.png)
 
 * Frontend: [Angular](https://angular.dev) + [NodeJS](https://nodejs.org)
-* Backend: [Quarkus](https://quarkus.io) + [Langchain4J](https://docs.langchain4j.dev/)
+* Backend + AI Service: [Quarkus](https://quarkus.io) + [Langchain4J](https://docs.langchain4j.dev/)
 * LLM: [Ollama](https://ollama.com/)
 * Dev & Test: Docker & Testcontainers
 
@@ -42,6 +42,12 @@ Quarkus is ideal for AI applications due to its
 Quarkus's "AI-Enhanced Developer Experience" provides
 
 * fast startups, low memory, and a reactive core for cloud-native AI; boosts developer velocity with live coding, a unified Java stack, and robust observability/security for reliable AI services.
+
+---
+
+## Application Architecture
+
+![slide](./images/s_architecture.png)
 
 ---
 
@@ -68,13 +74,13 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ---
 
-## Message Template Generator - Backend
+## Message Template Generator - AI Service
 
 ![slide](./images/s_05.png)
 
 ---
 
-## Backend Continue
+## AI Service Continue
 
 ![slide](./images/s_06.png)
 
@@ -169,13 +175,13 @@ Base URL: http://localhost:11434/api
 
 ## Putting All Together
 
-![slide](./images/s_17.png)
+![slide](./images/s_16.png)
 
 ---
 
 ## Putting All Together Continue
 
-![slide](./images/s_16.png)
+![slide](./images/s_17.png)
 
 ---
 
@@ -184,6 +190,12 @@ Base URL: http://localhost:11434/api
 * Build and run application
 * mcpinspector
 * Run tests
+
+---
+
+## MCP Calls Flow
+
+TODO: insert sequnce diagram
 
 ---
 
