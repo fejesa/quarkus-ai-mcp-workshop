@@ -113,6 +113,18 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ---
 
+## Message Template Generator - AI Components
+
+Programmatic vs declarative
+
+* @SystemMessage
+* @UserMessage
+* @RegisterAiService
+* @McpToolBox
+* @Tool
+
+---
+
 ## Message Template Generator - Langchain4j
 
 ![slide](./images/s_05.png)
