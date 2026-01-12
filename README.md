@@ -95,18 +95,6 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ---
 
-## Message Template Generator - Langchain4j
-
-![slide](./images/s_05.png)
-
----
-
-## Langchain4j Continue
-
-![slide](./images/s_06.png)
-
----
-
 ## How to access REST API - Step 1
 
 ![slide](./images/s_07.png)
@@ -122,6 +110,30 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 ## Quarkus Quinoa Build
 
 ![slide](./images/s_09.png)
+
+---
+
+## Message Template Generator - Langchain4j
+
+![slide](./images/s_05.png)
+
+---
+
+## Langchain4j Continue
+
+![slide](./images/s_06.png)
+
+---
+
+## Model Context Protocol - MCP
+
+![slide](./images/s_14.png)
+
+---
+
+## MCP Connection Lifecycle
+
+![slide](./images/s_15.png)
 
 ---
 
@@ -182,18 +194,6 @@ Base URL: http://localhost:11434/api
 
 ---
 
-## Model Context Protocol - MCP
-
-![slide](./images/s_14.png)
-
----
-
-## MCP Connection Lifecycle
-
-![slide](./images/s_15.png)
-
----
-
 ## Putting All Together
 
 ![slide](./images/s_16.png)
@@ -227,3 +227,10 @@ OpenTelemetry is to collect, process, and export signals.
 * Metrics: A measurement captured at runtime (for example Grafana)
 * Logs: A recording of an event (for example Elastic)
 * Traces: The path of a request through your application (for example Langfuse)
+
+---
+
+## Observability Demo
+
+* Metrics: [Grafana](http://localhost:3001)
+* Tracing: [Langfuse](http://localhost:3000)
