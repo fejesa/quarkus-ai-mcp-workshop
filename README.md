@@ -93,15 +93,15 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ```txt
 ├── docs
-├── resources
-│   └── templates
 └── src
-    ├── main
-    │   ├── java
-    │   ├── resources
-    │   └── webui
-    └── test
-        └── java
+    ├── main
+    │   ├── java
+    │   ├── jib
+    │   │   └── resources
+    │   ├── resources
+    │   └── webui
+    └── test
+        └── java
 ```
 
 ---
