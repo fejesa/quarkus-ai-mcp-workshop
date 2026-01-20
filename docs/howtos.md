@@ -48,7 +48,7 @@ To start the application in **Quarkus Dev Mode**, run:
 mvn clean quarkus:dev
 ```
 **Notes**:
-  * Quarkus Dev Mode uses Testcontainers, so **Docker** and **Ollama** must be running.
+  * Quarkus Dev Mode uses Testcontainers, so **Docker** and **Ollama** must be run.
   * If the configured LLM model (for example, **gpt-oss:20b** or **llama3.1:8b**) is not available locally, Ollama will download it automatically. This may take some time on first startup.
 
 Once the application is running, open the following URLs in your browser:
@@ -56,7 +56,10 @@ Once the application is running, open the following URLs in your browser:
   * Quarkus Dev UI: http://127.0.0.1:8080/q/dev-ui
 
 Change some configuration in the `application.properties` file, for example
- * set `quarkus.langchain4j.temperature` to 0.7 or `quarkus.langchain4j.ollama.chat-model.model-id` to `llama3.1:8b` and type the same prompt, and compare the outputs.
+ * set `quarkus.langchain4j.temperature` to 0.7 or
+ * `quarkus.langchain4j.ollama.chat-model.model-id` to `llama3.1:8b`
+
+and type the same prompt, and compare the outputs.
 
 Navigate to the DevUI and open the MCP Server extension, then call the tools.
 ![Quarkus MCP Extension](../images/devui-mcp.png)
@@ -92,7 +95,7 @@ Type the same prompt as before and see how the output is changed.
 
 ## Run the MCP Inspector (Optional)
 The [MCP inspector](https://github.com/modelcontextprotocol/inspector) is a developer tool for testing and debugging MCP servers.
-To start MCP Inspector using Docker Compose, run the following command from the project root directory:
+To start MCP Inspector using Docker compose, run the following command from the project root directory:
 ```shell
 docker compose -f mcp-inspector-compose.yml up
 ```
@@ -110,11 +113,11 @@ After a successful connection, you can list the available tools exposed by the e
 
 ## Check Tracing in Langfuse (Optional)
 The example application is configured to send tracing data to a Langfuse instance.
-To start Langfuse using Docker Compose, run the following command from the project root directory:
+To start Langfuse using Docker compose, run the following command from the project root directory:
 ```shell
 docker compose -f langfuse-compose.yml up
 ```
-Open the Langfuse UI in your browser: [http://localhost:3000](http://localhost:3000) in your browser to access the LangFuse application. Log in using the default credentials defined in the langfuse-compose.yml file:
+Open the Langfuse UI in your browser: [http://localhost:3000](http://localhost:3000) in your browser to access the LangFuse application. Log in using the default credentials defined in the `langfuse-compose.yml` file:
  * **Username**: `LANGFUSE_INIT_USER_EMAIL`
  * **Password**: `LANGFUSE_INIT_USER_PASSWORD`
 
