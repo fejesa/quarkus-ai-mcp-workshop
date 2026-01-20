@@ -92,11 +92,18 @@ Type the same prompt as before and see how the output is changed.
 
 ## Run the MCP Inspector (Optional)
 The [MCP inspector](https://github.com/modelcontextprotocol/inspector) is a developer tool for testing and debugging MCP servers.
-It requires that [npx](https://docs.npmjs.com/cli/v7/commands/npx) installed.
+To start MCP Inspector using Docker Compose, run the following command from the project root directory:
 ```shell
-npx @modelcontextprotocol/inspector
+docker compose -f mcp-inspector-compose.yml up
 ```
 Open the [http://localhost:6274](http://localhost:6274) in your browser to access the MCP Inspector application. Configure the connection according to the MCP server settings.
+
+**Note:**
+* Transport type: SSE
+* URL: http://localhost:8080/mcp/sse
+* Connection type: Direct
+* No Authentication needed
+
 ![MCP Inspector](../images/mcp-inspector.png)
 
 After a successful connection, you can list the available tools exposed by the example application and test them directly from the MCP Inspector UI.
