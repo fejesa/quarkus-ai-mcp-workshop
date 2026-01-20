@@ -11,35 +11,13 @@ backgroundColor: #fff
 JUG Workshop
 
 by Andras Fejes
-![bg left:40% 80%](./images/cover_image.png)
-
----
-
-## Sources
-
-<style>
-  .row {
-  display: flex;
-  justify-content: left;
-  gap: 30px;
-  margin: 60px 0;
-}
-</style>
-<div class="row">
-  <img src="./images/qr_code_github_source.png" width="200" />
-  <a href="https://github.com/fejesa/quarkus-ai-mcp">https://github.com/fejesa/quarkus-ai-mcp</a>
-</div>
-
-<div class="row">
-  <img src="./images/qr_code_github_workshop.png" width="200" />
-  <a href="https://github.com/fejesa/quarkus-ai-mcp-workshop">https://github.com/fejesa/quarkus-ai-mcp-workshop</a>
-</div>
+![bg left:40% 80%](../images/cover_image.png)
 
 ---
 
 ## GenAI Integration
 
-![slide](./images/s_01.png)
+![slide](../images/s_01.png)
 
 ---
 
@@ -56,7 +34,7 @@ A simple web application created to demonstrate:
 
 ## Used Tech Stack
 
-![slide](./images/s_02.png)
+![slide](../images/s_02.png)
 
 * **Frontend**: [Angular](https://angular.dev) + [NodeJS](https://nodejs.org)
 * **Backend + AI Service**: [Quarkus](https://quarkus.io) + [LangChain4J](https://docs.langchain4j.dev/)
@@ -85,7 +63,7 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ## Application Architecture
 
-![slide](./images/s_architecture.png)
+![slide](../images/s_architecture.png)
 
 ---
 
@@ -108,25 +86,25 @@ Quarkus's "AI-Enhanced Developer Experience" provides
 
 ## Message Template Generator - Frontend
 
-![slide](./images/s_04.png)
+![slide](../images/s_04.png)
 
 ---
 
 ## How to access REST API - Step 1
 
-![slide](./images/s_07.png)
+![slide](../images/s_07.png)
 
 ---
 
 ## How to access REST API - Step 2
 
-![slide](./images/s_08.png)
+![slide](../images/s_08.png)
 
 ---
 
 ## Quarkus Quinoa Build
 
-![slide](./images/s_09.png)
+![slide](../images/s_09.png)
 
 ---
 
@@ -144,25 +122,25 @@ Programmatic vs declarative
 
 ## Message Template - Langchain4j
 
-![slide](./images/s_05.png)
+![slide](../images/s_05.png)
 
 ---
 
 ## Langchain4j Continue
 
-![slide](./images/s_06.png)
+![slide](../images/s_06.png)
 
 ---
 
 ## Model Context Protocol - MCP
 
-![slide](./images/s_14.png)
+![slide](../images/s_14.png)
 
 ---
 
 ## MCP Connection Lifecycle
 
-![slide](./images/s_15.png)
+![slide](../images/s_15.png)
 
 ---
 
@@ -180,7 +158,7 @@ Each message has a role and content. Supported roles:
 
 ## Ollama Architecture
 
-![slide](./images/s_10.png)
+![slide](../images/s_10.png)
 
 ---
 
@@ -237,19 +215,19 @@ Base URL: http://localhost:11434/api
 
 ## Putting All Together
 
-![slide](./images/s_16.png)
+![slide](../images/s_16.png)
 
 ---
 
 ## MCP Calls Flow
 
-![slide](./images/s_18.png)
+![slide](../images/s_18.png)
 
 ---
 
 ## Putting All Together Continue
 
-![slide](./images/s_17.png)
+![slide](../images/s_17.png)
 
 ---
 
