@@ -13,6 +13,48 @@ Ensure the following tools are installed on your machine:
 - **[Docker](https://www.docker.com/products/docker-desktop/)**
 - **[Ollama](https://ollama.com)**
 
+## System requirements for Ollama
+### Windows
+ * Windows 10 22H2 or newer, Home or Pro
+ * NVIDIA 452.39 or newer Drivers if you have an NVIDIA card
+ * AMD Radeon Driver https://www.amd.com/en/support if you have a Radeon card
+
+See more details: https://docs.ollama.com/windows
+
+### macOS
+  * MacOS Sonoma (v14) or newer
+  * Apple M series (CPU and GPU support) or x86 (CPU only)
+
+See more details: https://docs.ollama.com/macos
+
+### Linux
+See more details: https://docs.ollama.com/linux
+
+More details about hardware support: https://docs.ollama.com/gpu
+
+Depending on your operating system, you should set the following environment variables and run Ollama from a terminal or command prompt.
+
+Linux/macOS
+```shell
+export OLLAMA_DEBUG=1
+export OLLAMA_CONTEXT_LENGTH=8096
+ollama serve
+```
+
+Windows(PowerShell)
+```shell
+$env:OLLAMA_DEBUG="1"
+$env:OLLAMA_CONTEXT_LENGTH="8096"
+ollama serve
+```
+
+or Windows (cmd)
+```shell
+set OLLAMA_DEBUG=1
+set OLLAMA_CONTEXT_LENGTH=8096
+ollama serve
+```
+
 ---
 
 ## Clone the Project
@@ -41,6 +83,8 @@ mvn clean verify
 ```
 
 **Note**: Ollama will download the LLM model used for testing (**qwen3:0.6b**) automatically if it is not already available locally.
+
+
 
 ## Run the Application in Dev Mode (Optional)
 To start the application in **Quarkus Dev Mode**, run:
